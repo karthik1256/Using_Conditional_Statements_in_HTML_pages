@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>
+            nested if conditional statement
+            {% if a > b %}
+                {% if a > c %}
+                
+                    a is max {{ a }}
+                {% else %}
+                    c is max {{ c }}
+                {% endif %}
+                
+            {% elif b > c %}
+                
+                    b is max {{ b }}
+                
+            {% else %}
+                
+                    c is max {{ c }}
+                
+            {% endif %}
+        </h1>
+    </center>
+</body>
+</html>
